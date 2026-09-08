@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ÉLANÉ — South African Ladies Fashion & Beauty</title>
+<meta name="description" content="ÉLANÉ curates ladies fashion and beauty finds from South African online retailers.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">SOUTH AFRICAN FASHION • BEAUTY • ONLINE DEALS</div>
+<header>
+  <a class="logo" href="#">ÉLANÉ<span>.</span></a>
+  <nav>
+    <a href="#shop">Shop</a><a href="#fashion">Fashion</a><a href="#beauty">Beauty</a><a href="#how">How it works</a>
+  </nav>
+  <button class="menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+</header>
+
+<section class="hero">
+  <div>
+    <p class="eyebrow">THE SOUTH AFRICAN STYLE EDIT</p>
+    <h1>Find your next<br><em>favourite.</em></h1>
+    <p>Curated ladies fashion and beauty products from online stores you can shop in South Africa.</p>
+    <a class="btn" href="#shop">Shop the edit</a>
+  </div>
+  <div class="hero-art"><span>ÉLANÉ</span><small>STYLE • BEAUTY • CONFIDENCE</small></div>
+</section>
+
+<section id="shop" class="shop">
+  <div class="section-head">
+    <div><p class="eyebrow">CURATED PRODUCTS</p><h2>Shop the edit</h2></div>
+    <div class="filters">
+      <button class="filter active" data-filter="All">All</button>
+      <button class="filter" data-filter="Fashion">Fashion</button>
+      <button class="filter" data-filter="Beauty">Beauty</button>
+    </div>
+  </div>
+  <div id="products" class="grid"></div>
+</section>
+
+<section id="fashion" class="feature">
+  <div><p class="eyebrow">FASHION</p><h2>Dress the moment.</h2><p>From statement dresses to everyday pieces, we highlight products worth a look.</p></div>
+  <a class="btn light" href="#shop">View fashion</a>
+</section>
+
+<section id="beauty" class="feature pale">
+  <div><p class="eyebrow">BEAUTY</p><h2>Your glow, your rules.</h2><p>Discover makeup and body-care finds from South African online retailers.</p></div>
+  <a class="btn" href="#shop">View beauty</a>
+</section>
+
+<section id="how" class="how">
+  <p class="eyebrow">HOW IT WORKS</p><h2>Discover → Click → Shop</h2>
+  <div class="steps">
+    <div><b>01</b><h3>Discover</h3><p>Browse our curated products and current prices.</p></div>
+    <div><b>02</b><h3>Click</h3><p>Choose a product and visit the retailer.</p></div>
+    <div><b>03</b><h3>Shop</h3><p>Complete your purchase on the retailer's website.</p></div>
+  </div>
+  <p class="notice"><strong>Affiliate disclosure:</strong> ÉLANÉ may earn a commission when you buy through an approved affiliate link. Prices, stock and availability can change at the retailer.</p>
+</section>
+
+<footer><div class="logo">ÉLANÉ<span>.</span></div><p>Fashion • Beauty • Confidence</p><small>© 2026 ÉLANÉ</small></footer>
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body></html>
